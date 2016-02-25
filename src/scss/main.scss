@@ -1,0 +1,197 @@
+/*------------------------------------------------------------*
+   Variables
+*-------------------------------------------------------------*/
+$baseline: 1.5rem;
+$body-color: #525252;
+$body-color-light: #888888;
+
+
+
+/*------------------------------------------------------------*
+   General Styles
+*-------------------------------------------------------------*/
+html {
+	font-size: 1.125em; // 18px
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+	font-size: 2.33333333rem;
+	margin-bottom: 1em;
+}
+
+a {
+	color: $body-color;
+	transition: color 0.2s ease-in-out;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+ 	display: none !important;
+}
+
+
+
+/*------------------------------------------------------------*
+   Header Styles
+*-------------------------------------------------------------*/
+.page-header {
+	padding: 3em 0 4em;
+	margin-bottom: 1em;
+}
+
+.header-logo {
+	font-size: 1rem;
+	margin-bottom: 0;
+
+	img {
+		display: block;
+		height: 3em;
+		width: auto;
+	}
+}
+
+
+
+/*------------------------------------------------------------*
+   Main Content Styles
+*-------------------------------------------------------------*/
+.main {
+	min-height: calc(100vh - 16rem);
+}
+
+
+
+/*------------------------------------------------------------*
+   Post Listing Styles
+*-------------------------------------------------------------*/
+.post-entry {
+	padding-bottom: 2em;
+	border-bottom: 1px solid #e6e6e6;
+	margin-bottom: 2em;
+
+	&.single {
+		border-bottom: 0;
+	}
+
+	&:last-of-type {
+		margin-bottom: 3em;
+	}
+}
+
+.post-title {
+	font-size: 2rem;
+	color: $body-color;
+	margin-bottom: 0.75em;
+
+	a {
+		color: inherit;
+		text-decoration: none;
+
+		&:hover {
+			color: darken($body-color, 10%);
+		}
+	}
+}
+
+.post-thumbnail {
+	margin: 0 0 1.5em;
+}
+
+.post-meta {
+	color: $body-color-light;
+	font-style: italic;
+
+	a {
+
+		&:hover {
+			color: darken($body-color, 10%);
+		}
+	}
+}
+
+.post-content {
+	
+	p {
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.post-pagination {
+	margin-bottom: 4em;
+
+	button, a {
+		line-height: 2em;
+		padding: 0 0.6666666666em;
+		margin-right: 1em;
+		margin-bottom: 0;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.back-to-listing {
+	margin: 4em 0 1em;
+
+	.button {
+		margin-bottom: 0;
+	}
+}
+
+
+
+/*------------------------------------------------------------*
+   Author Styling
+*-------------------------------------------------------------*/
+.author-box {
+	margin-bottom: 4em;
+}
+
+.author-gravatar {
+	margin: 0;
+}
+
+.author-title {
+	font-size: 2rem;
+	line-height: 1em;
+	margin-bottom: 0.5em;
+}
+
+.author-info {
+
+	p {
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+
+
+/*------------------------------------------------------------*
+   Footer Styles
+*-------------------------------------------------------------*/
+.page-footer {
+	padding: 2em 0;
+	background: #333;
+
+	p {
+		font-size: 0.7777777777rem;
+		color: #fff;
+		text-align: center;
+		margin-bottom: 0;
+	}
+}
