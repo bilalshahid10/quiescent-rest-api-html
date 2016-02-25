@@ -8,4 +8,4 @@ Source files for the Tuts+ tutorial: [Building a WordPress Powered Front-End Wit
 
 **Available on Tuts+ 7 March, 2016**
 
-View the demo game at [dev.imbilal.com](http://dev.imbilal.com/wp-api-front-end/#/posts)
+View the demo at [dev.imbilal.com](http://dev.imbilal.com/wp-api-front-end/#/posts)
