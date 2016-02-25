@@ -6,6 +6,4 @@ In this series about building a WordPress powered frontend with the WP REST API 
 
 Source files for the Tuts+ tutorial: [Building a WordPress Powered Front-End With WP REST API and AngularJS](http://code.tutsplus.com/categories/wordpress)
 
-**Available on Tuts+ 7 March, 2016**
-
 View the demo at [dev.imbilal.com](http://dev.imbilal.com/wp-api-front-end/#/posts)
